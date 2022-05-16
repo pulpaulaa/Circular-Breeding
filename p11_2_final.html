@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circular Breeding</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="stylefinal.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="p11_2">
+    <div id="contexto-p5">
+      <!-- Recuadro -->
+      Tu perro está jugando con otros perros.
+    </div>
+    <h1 id="puntaje1" class="h1-p5">¿Qué haces por mientras?</h1>
+    <img
+      id="puntaje1"
+      src="images/P11B.svg"
+      alt="Perro agresivo"
+      class="img-p11B"
+    />
+    <div class="bottom">
+      <div id="btn_container" class="btn_container">
+        <a href="#" class="btn_5" id="btn1" onclick="fb_pje1()"
+          >Uso mi celular un rato.</a
+        >
+        <a href="#" class="btn_5" id="btn2" onclick="fb_pje2()"
+          >Juego con ellos.</a
+        >
+        <a href="#" class="btn_5" id="btn3" onclick="fb_pje3()"
+          >Me mantengo alerta.</a
+        >
+      </div>
+    </div>
+    <!-- Feedback popup -->
+    <div id="feedback1" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          ¡Qué bueno que te des un tempo para ti! <br />Pero ten cuidado con
+          perder a tu perro de vista, debes estar atento a posibles advertencias
+          de otros dueños.
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p12_2_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <div id="feedback2" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          ¡Genial que te diviertas también! <br />
+          Y es la perfecta instancia para fortalecer el vinculo con tu perro.
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p12_2_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <div id="feedback3" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          ¡Qué bueno que no pierdas a tu perro de vista! <br />Es importante
+          estar atento a posibles advertencias de otros dueños. También puedes
+          aprovechar de descansar un momento mientras lo observas.
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p12_2_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <div id="feedback1_1" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          ¡No puedes, no trajiste tu celular! <br />Pero de todos modos, está
+          bien que te quieras dar un tiempo para ti. Solo ten cuidado con perder
+          a tu perro de vista, debes estar atento a posibles advertencias de
+          otros dueños.
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p12_2_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <!-- External JS -->
+    <script src="game.js"></script>
+  </body>
+</html>

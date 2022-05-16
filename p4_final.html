@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circular Breeding</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="stylefinal.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="p4">
+    <div id="contexto-p4">
+      <!-- Recuadro -->
+      Ya saliste de tu hogar y estás listx para iniciar el paseo.
+    </div>
+    <div id="contenedor-img-p4">
+      <a href="#" id="btn2" class="img-p4" onclick="fb_pje2()">
+        <img
+          src="images/flecha-blanca.svg"
+          alt="Flecha"
+          style="transform: rotate(-110deg)"
+        />
+      </a>
+      <a href="#" id="btn1" class="img-p4" onclick="fb_pje1()">
+        <img
+          src="images/flecha-blanca.svg"
+          alt="Flecha"
+          style="transform: rotate(-70deg)"
+        />
+      </a>
+      <h1 id="puntaje1" class="h1-p4">Elige un camino</h1>
+    </div>
+    <!-- Feedback popup -->
+    <div id="feedback1" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          Es importante socializar, pero debes tener precaución, comunícate con
+          los otros dueños para saber cómo sus perros se comportan con otros.
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p5_1_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <div id="feedback2" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          Está bien si tu perro prefiere no socializar, pero debes tener en
+          cuenta que es difícil evitar la interacción
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p5_2_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <!-- External JS -->
+    <script src="game.js"></script>
+  </body>
+</html>

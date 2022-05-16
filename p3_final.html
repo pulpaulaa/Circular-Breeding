@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- HTML cosas -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circular Breeding</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="stylefinal.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="p3">
+    <h1 id="h1-p3">¿Qué llevas?</h1>
+    <p id="text-p3">Puedes llevar hasta X objetos</p>
+    <div id="contenedor-imagen-p3">
+      <!-- Bolsas -->
+      <a href="#" onclick="agregar_impl('Bolsas', 'btn1_p3')">
+        <img src="images/P3-1.svg" alt="Bolsas" class="img-p3" id="btn1_p3"
+      /></a>
+      <!-- Juguete -->
+      <a href="#" onclick="agregar_impl('Juguete', 'btn2_p3')"
+        ><img src="images/P3-2.svg" alt="Juguete" class="img-p3" id="btn2_p3"
+      /></a>
+      <!-- Audífonos -->
+      <a href="#" onclick="agregar_impl('Audífonos', 'btn3_p3')"
+        ><img src="images/P3-3.svg" alt="Audífonos" class="img-p3" id="btn3_p3"
+      /></a>
+      <!-- Correa -->
+      <a href="#" onclick="agregar_impl('Collar', 'btn4_p3')"
+        ><img src="images/P3-4.svg" alt="Correa" class="img-p3" id="btn4_p3"
+      /></a>
+      <!-- Celular -->
+      <a href="#" onclick="agregar_impl('Celular', 'btn5_p3')"
+        ><img src="images/P3-5.svg" alt="Celular" class="img-p3" id="btn5_p3"
+      /></a>
+      <!-- Premios -->
+      <a href="#" onclick="agregar_impl('Premios', 'btn6_p3')"
+        ><img src="images/P3-6.svg" alt="Premios" class="img-p3" id="btn6_p3"
+      /></a>
+      <!-- Mantita -->
+      <a href="#" onclick="agregar_impl('Mantita', 'btn7_p3')"
+        ><img src="images/P3-7.svg" alt="Bolsito" class="img-p3" id="btn7_p3"
+      /></a>
+      <!-- Libro -->
+      <a href="#" onclick="agregar_impl('Libro', 'btn8_p3')"
+        ><img src="images/P3-8.svg" alt="Libro" class="img-p3" id="btn8_p3"
+      /></a>
+      <!-- Agua -->
+      <a href="#" onclick="agregar_impl('Agua', 'btn9_p3')"
+        ><img src="images/P3-9.svg" alt="Agua" class="img-p3" id="btn9_p3"
+      /></a>
+    </div>
+    <a href="#" id="btn-p3" onclick="storage_p3()"> Continuar </a>
+    <!-- Feedback popup -->
+    <div id="feedback_p3" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          Deberías llevar <strong>correa,</strong> <strong>arnés</strong> acorde
+          a su anatomía y <strong>collar con identificación</strong> para
+          asegurar tanto al perro como su entorno.
+        </p>
+        <p class="feedback-text-smol">
+          *Si tu perro es de tendencia agresiva deberías llevarlo con bozal.
+        </p>
+        <a href="p4_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <!-- External JS -->
+    <script src="game.js"></script>
+  </body>
+</html>

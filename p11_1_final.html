@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circular Breeding</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="stylefinal.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="p11_1">
+    <div id="contexto-p5">
+      <!-- Recuadro -->
+      Luego de que la familia se ha ido, recuerdas que tienes que comprar algo.
+    </div>
+    <img
+      id="puntaje1"
+      src="images/P11A.svg"
+      alt="Perro agresivo"
+      class="img-p11A"
+    />
+    <div class="bottom">
+      <div id="btn_container" class="btn_container">
+        <a href="#" class="btn_5" id="btn1" onclick="fb_pje1()"
+          >Entras al almacén más cercano y dejas el perro esperando afuera.</a
+        >
+        <a href="#" class="btn_5" id="btn2" onclick="fb_pje2()"
+          >Sigo el paseo y lo dejo para otro momento.</a
+        >
+        <a href="#" class="btn_5" id="btn3" onclick="fb_pje3()"
+          >Alargo un poco la ruta para poder pasar por el minimarket
+          petfriendly.</a
+        >
+      </div>
+    </div>
+    <!-- Feedback popup -->
+    <div id="feedback1" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          Esto es una opción viable en una emergencia, pero aunque tu perro esté
+          entrenado es mejor que lo dejes acompañado o que compres en otro
+          momento.
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p12_1_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <div id="feedback2" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          Está bien respetar el momento del paseo. Luego podrás ir sin
+          problemas. Aunque siempre puedes optar por locales que admitan
+          animales si es que no es estresante para tu perro.
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p12_1_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <div id="feedback3" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          A veces es inevitable tener que interrumpir el paseo y es una muy
+          buena alternativa ir a locales que acepten animales, siempre y cuando
+          esto no le genere un estrés tu perro.
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p12_1_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <!-- External JS -->
+    <script src="game.js"></script>
+  </body>
+</html>

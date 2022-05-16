@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circular Breeding</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="stylefinal.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="p5_2">
+    <div id="contexto-p5">
+      <!-- Recuadro -->
+      Siguen avanzando por la calle y un perro detrás de una reja se pone
+      agresivo.
+    </div>
+    <h1 id="puntaje1" class="h1-p5">¿Qué haces?</h1>
+    <img
+      src="images/P5B.svg"
+      alt="Perro agresivo"
+      class="img-p5"
+      style="width: 52%"
+    />
+    <div class="bottom">
+      <div id="btn_container" class="btn_container">
+        <a href="#" class="btn_5" id="btn1" onclick="fb_pje1()"
+          >Me acerco a calmar al otro perro porque puede estar estresado</a
+        >
+        <a href="#" class="btn_5" id="btn2" onclick="fb_pje2()"
+          >Llamo a mi perro y le doy un premio si me hace caso</a
+        >
+        <a href="#" class="btn_5" id="btn3" onclick="fb_pje3()"
+          >Me llevo a mi perro perro para alejarlo del conflicto</a
+        >
+      </div>
+    </div>
+    <!-- Feedback popup -->
+    <div id="feedback1" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          Es bueno considerar el bienestar de todos los involucrados, pero no es
+          seguro acercarte a un perro desconocido, ya que no conoces su
+          temperamento.
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p6_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <div id="feedback2" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          ¡OJO!
+          <br />
+          El otros perro también querrá premio. Es mejor evitar conflictos.
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p6_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <div id="feedback3" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          Está bien que te preocupes por el bienestar de tu perro. Pero al
+          alejarlo, hazlo con calma, porque los movimientos inesperados pueden
+          generar estrés en ambos perros.
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p6_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <div id="feedback2_1" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          <strong>¡No puedes, no trajiste premios!</strong>
+          <br />
+          De todas formas el otro perro también querría premio. Es mejor evitar
+          conflictos
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p6_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <!-- External JS -->
+    <script src="game.js"></script>
+  </body>
+</html>

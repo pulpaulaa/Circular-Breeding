@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circular Breeding</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="stylefinal.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="p1">
+    <div id="contexto-p1">
+      <!-- Recuadro -->
+      Es un día de fin de semana durante el verano en la ciudad y vas a sacar a
+      pasear a tu perro.
+    </div>
+    <h1 id="h1-p1">¿Qué momento del día es?</h1>
+    <div id="contenedor-img-p1">
+      <a href="#" id="btn1" class="img-p1" onclick="fb_pje1()">
+        <img
+          src="images/p1-mañana.svg"
+          alt="Mañana"
+          style="border-radius: 10px"
+        />
+      </a>
+      <a href="#" id="btn2" class="img-p1" onclick="fb_pje2()">
+        <img
+          src="images/p1-mediodia.svg"
+          alt="Mediodía"
+          style="border-radius: 10px"
+        />
+      </a>
+      <a href="#" id="btn3" class="img-p1" onclick="fb_pje3()">
+        <img
+          src="images/p1-tarde.svg"
+          alt="Tarde"
+          style="border-radius: 10px"
+        />
+      </a>
+      <a href="#" id="btn4" class="img-p1" onclick="fb_pje4()">
+        <img
+          src="images/p1-noche.svg"
+          alt="Noche"
+          style="border-radius: 10px"
+        />
+      </a>
+    </div>
+    <!-- Feedback popup -->
+    <div id="feedback1" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          ¡Qué bien!
+          <br />
+          Es el paseo más estimulante para tu perro.
+        </p>
+        <p class="feedback-text-smol">
+          Recuerda que los paseos deben ser rutinarios.
+        </p>
+        <a href="p2_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <div id="feedback2" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          ¡Ojo!
+          <br />
+          Hay que cuidarlo de la exposición al calor.
+        </p>
+        <p class="feedback-text-smol">
+          Recuerda que los paseos deben ser rutinarios.
+        </p>
+        <a href="p2_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <div id="feedback3" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          ¡Qué bien, te podrás encontrar a más perros!
+        </p>
+        <p class="feedback-text-smol">
+          Recuerda que los paseos deben ser rutinarios.
+        </p>
+        <a href="p2_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <div id="feedback4" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          Podrás ir más relajadx. Pero ten en cuenta la seguridad de ambos.
+        </p>
+        <p class="feedback-text-smol">
+          Recuerda que los paseos deben ser rutinarios.
+        </p>
+        <a href="p2_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <!-- External JS -->
+    <script src="game.js"></script>
+  </body>
+</html>

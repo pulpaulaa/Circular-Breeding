@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circular Breeding</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="stylefinal.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="p6">
+    <div id="contexto-p5">
+      <!-- Recuadro -->
+      Más adelante, tu perro encuentra una planta extraña.
+    </div>
+    <h1 id="puntaje1" class="h1-p5">¿Qué haces?</h1>
+    <img src="images/P6.svg" alt="Perro agresivo" class="img-p6" />
+    <div class="bottom">
+      <div id="btn_container" class="btn_container">
+        <a href="#" class="btn_5" id="btn1" onclick="fb_pje1()"
+          >Le tiro un poco la correa para continuar caminando.</a
+        >
+        <a href="#" class="btn_5" id="btn2" onclick="fb_pje2()"
+          >Lo dejo acercarse para que explore.</a
+        >
+        <a href="#" class="btn_5" id="btn3" onclick="fb_pje3()"
+          >Me acerco a identificar la planta antes de dejarlo acercarse.</a
+        >
+      </div>
+    </div>
+    <!-- Feedback popup -->
+    <div id="feedback1" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          Es bueno ser cuidadoso si no sabes de qué se trata. Pero si es
+          inofensivo, es bueno que el perro entrene su olfato.
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p7_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <div id="feedback2" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          Es bueno que dejes a tu perro olfatear y explorar, pero ten cuidado
+          cuando no sabes qué es lo que está oliendo, porque podría ser dañino.
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p7_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <div id="feedback3" class="oscurecer">
+      <div class="feedback">
+        <div class="mini-feedback">Feedback</div>
+        <p class="feedback-text">
+          ¡Qué bueno que te preocupes de saber con qué está interactuando tu
+          perro!
+        </p>
+        <p class="feedback-text-smol"></p>
+        <a href="p7_final.html"
+          ><img id="flecha" src="images/flecha-verde.svg" alt="Continuar"
+        /></a>
+      </div>
+    </div>
+    <!-- External JS -->
+    <script src="game.js"></script>
+  </body>
+</html>
