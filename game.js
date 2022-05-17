@@ -555,9 +555,9 @@ if (document.body.id == "p3") {
     "Puedes llevar hasta " + string_capacidad + " objetos";
 
   function agregar_impl(implemento, num_id) {
-    debugger;
-    console.log(jugador.implementos);
-    if (jugador.implementos.length == 0) {
+    let implementosjugador = sessionStorage.getItem("jugador_implementos");
+    implementosjugador = Number(implementosjugador);
+    if (implementosjugador == 0) {
       counter = 0;
       string_capacidad = sessionStorage.getItem("jugador_capacidad");
       capacidad = Number(string_capacidad);
