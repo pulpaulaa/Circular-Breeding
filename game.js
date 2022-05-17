@@ -1147,9 +1147,234 @@ function cargar_avatar() {
     let string_avatar = sessionStorage.getItem("avatar")
     let lista_avatar = string_avatar.split(",")
     string_avatar = String(lista_avatar[0]) + " " + String(lista_avatar[1]) + " " + String(lista_avatar[2]) + " " + String(lista_avatar[3])
+    //setear innerHTML que foto es
+    //
+    //console.log(lista_avatar);
+    //debugger;
+    if (lista_avatar[0] == "ñuñoíno") { //N___
+        if (lista_avatar[1] == "humano") { //N__0
+            if (lista_avatar[2] == "individualista") { //NY_0
+                if (lista_avatar[3] == "popular") { //NYP0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NYP0.png";
+                } else { //NYE0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NYE0.png";
+                }
+            } else if (lista_avatar[2] == "cuadrado") { //NC_0
+                if (lista_avatar[3] == "popular") { //NCP0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NCP0.png";
+                } else { //NCE0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NCE0.png";
+                }
+            } else if (lista_avatar[2] == "vegano") { //NV_0
+                if (lista_avatar[3] == "popular") { //NVP0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NVP0.png";
+                } else { //NVE0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NVE0.png";
+                }
+            }
+        } else if (lista_avatar[1] == "vínculo") { //N__1
+            if (lista_avatar[2] == "individualista") { //NY_1
+                if (lista_avatar[3] == "popular") { //NYP1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NYP1.png";
+                } else { //NYE1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NYE1.png";
+                }
+            } else if (lista_avatar[2] == "cuadrado") { //NC_1
+                if (lista_avatar[3] == "popular") { //NCP1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NCP1.png";
+                } else { //NCE1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NCE1.png";
+                }
+            } else if (lista_avatar[2] == "vegano") { //NV_1
+                if (lista_avatar[3] == "popular") { //NVP1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NVP1.png";
+                } else { //NVE1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NVE1.png";
+                }
+            }
+        } else if (lista_avatar[1] == "perro") { //N__2
+            if (lista_avatar[2] == "individualista") { //NY_2
+                if (lista_avatar[3] == "popular") { //NYP2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NYP2.png";
+                } else { //NYE2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NYE2.png";
+                }
+            } else if (lista_avatar[2] == "cuadrado") { //NC_2
+                if (lista_avatar[3] == "popular") { //NCP2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NCP2.png";
+                } else { //NCE2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NCE2.png";
+                }
+            } else if (lista_avatar[2] == "vegano") { //NV_2
+                if (lista_avatar[3] == "popular") { //NVP2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NVP2.png";
+                } else { //NVE2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/NVE2.png";
+                }
+            }
+        }
+    } else if (lista_avatar[0] == "karen") { //N___
+        if (lista_avatar[1] == "humano") { //K__0
+            if (lista_avatar[2] == "individualista") { //KY_0
+                if (lista_avatar[3] == "popular") { //KYP0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KYP0.png";
+                } else { //KYE0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KYE0.png";
+                }
+            } else if (lista_avatar[2] == "cuadrado") { //KC_0
+                if (lista_avatar[3] == "popular") { //KCP0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KCP0.png";
+                } else { //KCE0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KCE0.png";
+                }
+            } else if (lista_avatar[2] == "vegano") { //KV_0
+                if (lista_avatar[3] == "popular") { //KVP0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KVP0.png";
+                } else { //KVE0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KVE0.png";
+                }
+            }
+        } else if (lista_avatar[1] == "vínculo") { //K__1
+            if (lista_avatar[2] == "individualista") { //KY_1
+                if (lista_avatar[3] == "popular") { //KYP1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KYP1.png";
+                } else { //KYE1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KYE1.png";
+                }
+            } else if (lista_avatar[2] == "cuadrado") { //KC_1
+                if (lista_avatar[3] == "popular") { //KCP1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KCP1.png";
+                } else { //KCE1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KCE1.png";
+                }
+            } else if (lista_avatar[2] == "vegano") { //KV_1
+                if (lista_avatar[3] == "popular") { //KVP1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KVP1.png";
+                } else { //KVE1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KVE1.png";
+                }
+            }
+        } else if (lista_avatar[1] == "perro") { //K__2
+            if (lista_avatar[2] == "individualista") { //KY_2
+                if (lista_avatar[3] == "popular") { //KYP2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KYP2.png";
+                } else { //KYE2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KYE2.png";
+                }
+            } else if (lista_avatar[2] == "cuadrado") { //KC_2
+                if (lista_avatar[3] == "popular") { //KCP2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KCP2.png";
+                } else { //KCE2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KCE2.png";
+                }
+            } else if (lista_avatar[2] == "vegano") { //KV_2
+                if (lista_avatar[3] == "popular") { //KVP2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KVP2.png";
+                } else { //KVE2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/KVE2.png";
+                }
+            }
+        }
+    } else if (lista_avatar[0] == "perkin") { //M___
+        if (lista_avatar[1] == "humano") { //M__0
+            if (lista_avatar[2] == "individualista") { //MY_0
+                if (lista_avatar[3] == "popular") { //MYP0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MYP0.png";
+                } else { //MYE0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MYE0.png";
+                }
+            } else if (lista_avatar[2] == "cuadrado") { //MC_0
+                if (lista_avatar[3] == "popular") { //MCP0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MCP0.png";
+                } else { //MCE0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MCE0.png";
+                }
+            } else if (lista_avatar[2] == "vegano") { //MV_0
+                if (lista_avatar[3] == "popular") { //MVP0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MVP0.png";
+                } else { //MVE0
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MVE0.png";
+                }
+            }
+        } else if (lista_avatar[1] == "vínculo") { //M__1
+            if (lista_avatar[2] == "individualista") { //MY_1
+                if (lista_avatar[3] == "popular") { //MYP1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MYP1.png";
+                } else { //MYE1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MYE1.png";
+                }
+            } else if (lista_avatar[2] == "cuadrado") { //MC_1
+                if (lista_avatar[3] == "popular") { //MCP1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MCP1.png";
+                } else { //MCE1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MCE1.png";
+                }
+            } else if (lista_avatar[2] == "vegano") { //MV_1
+                if (lista_avatar[3] == "popular") { //MVP1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MVP1.png";
+                } else { //MVE1
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MVE1.png";
+                }
+            }
+        } else if (lista_avatar[1] == "perro") { //M__2
+            if (lista_avatar[2] == "individualista") { //MY_2
+                if (lista_avatar[3] == "popular") { //MYP2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MYP2.png";
+                } else { //MYE2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MYE2.png";
+                }
+            } else if (lista_avatar[2] == "cuadrado") { //MC_2
+                if (lista_avatar[3] == "popular") { //MCP2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MCP2.png";
+                } else { //MCE2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MCE2.png";
+                }
+            } else if (lista_avatar[2] == "vegano") { //MV_2
+                if (lista_avatar[3] == "popular") { //MVP2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MVP2.png";
+                } else { //MVE2
+                    document.getElementById("avatar-img").src = "images/avatares_ai/MVE2.png";
+                }
+            }
+        }
+    }
+    //  ¿Qué significa?
+    //Significado Involucramiento
     if (lista_avatar[0] == "karen") {
-        document.getElementById("text").innerHTML = "¡Eres una " + string_avatar + "!"
-    } else {
-        document.getElementById("text").innerHTML = "¡Eres un " + string_avatar + "!"
+        document.getElementById("tit_inv").innerHTML = "Karen"
+        document.getElementById("parr_inv").innerHTML = "Priorizas que tu perro se mantenga sano y salvo, lo alejas de todo potencial peligro."
+    } else if (lista_avatar[0] == "perkin") {
+        document.getElementById("tit_inv").innerHTML = "Supermandoneao"
+        document.getElementById("parr_inv").innerHTML = "Priorizas que tu perro tenga un paseo eficiente, lo guías para que utilicen el corto tiempo que tienen de manera óptima. En próximos paseos, podrías darte tiempo para disfrutar de este rato."
+    } else if (lista_avatar[0] == "ñuñoíno") {
+        document.getElementById("tit_inv").innerHTML = "Ñuñoíno"
+        document.getElementById("parr_inv").innerHTML = "Priorizas que tu perro explore y desarrolle sus habilidades, lo dejas libre para que sea quien es."
+    }
+    //Significado Prioridad
+    if (lista_avatar[1] == "humano") {
+        document.getElementById("parr_pri").innerHTML = "Eres un pet lover que aprovecha el paseo para darse un tiempo para sí mismo. Este es un momento en el que tú, al igual que tu perro, tienen una instancia de distensión."
+    } else if (lista_avatar[1] == "perro") {
+        document.getElementById("parr_pri").innerHTML = "Eres un pet lover que prioriza el bienestar de su mejor amigx. Para ti este es un momento dedicado cien por ciento a tu mascota."
+    } else if (lista_avatar[1] == "vínculo") {
+        document.getElementById("parr_pri").innerHTML = "Eres un pet lover que se preocupa de fortalecer la conexión con su mascota. Para ustedes este es un momento esperado del día, les permite pasar tiempo juntxs y distraerse."
+    }
+    //Significado Responsabilidad
+    if (lista_avatar[2] == "individualista") {
+        document.getElementById("tit_res").innerHTML = "Yoyito"
+        document.getElementById("parr_res").innerHTML = "Al momento de pasear, el entorno queda en un segundo plano, esperamos que recuerdes al medioambiente y a los demás en tus próximos paseos."
+    } else if (lista_avatar[2] == "cuadrado") {
+        document.getElementById("tit_res").innerHTML = "Cuadrado"
+        document.getElementById("parr_res").innerHTML = "Al momento de pasear, te preocupas de que el ambiente sea agradable y justo para lxs demás, no solo para ti y tu perro."
+    } else if (lista_avatar[2] == "vegano") {
+        document.getElementById("tit_res").innerHTML = "Vegano"
+        document.getElementById("parr_res").innerHTML = "Al momento de pasear, el cuidado del entorno natural es esencial, tanto tú como tu perro se relacionan con el espacio de manera cuidadosa."
+    }
+    //Significado Sociabilidad
+    if (lista_avatar[3] == "popular") {
+        document.getElementById("tit_soc").innerHTML = "Pana"
+        document.getElementById("parr_soc").innerHTML = "Para ustedes, el paseo es una instancia para compartir, tanto con los otros perros como con los humanos."
+    } else if (lista_avatar[3] == "ermitaño") {
+        document.getElementById("tit_soc").innerHTML = "Piola"
+        document.getElementById("parr_soc").innerHTML = "Para ustedes, el paseo es una instancia privada, de la cual sólo forman parte tú y tu mascota."
     }
 }

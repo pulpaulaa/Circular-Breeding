@@ -281,7 +281,7 @@ rgba(255, 205, 56, 0.5);
 /* -------------------------------------------------------------------------- */
 
 #p4 {
-  background-image: url(images/P4_2.svg);
+  background-image: url(images/P4.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -469,7 +469,7 @@ rgba(255, 205, 56, 0.5);
 /* -------------------------------------------------------------------------- */
 
 #p9 {
-  background-image: url(images/P9.svg);
+  background-image: url(images/P9.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -518,6 +518,86 @@ rgba(255, 205, 56, 0.5);
   font-weight: 400;
   margin-bottom: 20px;
   margin-top: 20%;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   AVATAR                                   */
+/* -------------------------------------------------------------------------- */
+#pavatar {
+  background-color: #112639;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#recuadro-inferior-pavatar {
+  background-color: #f5f4f5;
+  height: auto;
+  padding: 10px 20px;
+}
+
+.avatar-img {
+  width: 100%;
+}
+
+#titulo-pavatar {
+  font-family: "Lilita One", cursive;
+  color: #1f4766;
+  font-size: 40px;
+  margin: 0px 0px 10px 0px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.h1-pavatar {
+  font-family: "Lilita One", cursive;
+  color: #009087;
+  font-size: 20px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.text-pavatar {
+  color: #1f4766;
+  font-family: "Andika New Basic", sans-serif;
+  line-height: 20px;
+  margin: 3px 0px 15px 0px;
+}
+
+/* Botones */
+.btn-pavatar {
+  background-color: #f34e37;
+  padding: 6px 20px;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #f5f4f5;
+  font-family: "Andika New Basic", sans-serif;
+  margin: 10px 10px 10px 0px;
+  font-size: 15px;
+}
+
+.btn-pavatar-2 {
+  background-color: #f34e37;
+  padding: 6px 20px;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #f5f4f5;
+  font-family: "Andika New Basic", sans-serif;
+  margin: 10px 0px 10px 10px;
+  font-size: 15px;
+}
+
+#contenedor-btn-pavatar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
 }
 
 /* -------------------------------------------------------------------------- */
