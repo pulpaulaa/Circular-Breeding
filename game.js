@@ -482,9 +482,9 @@ if (document.body.id == "p3") {
 
     function agregar_impl(implemento, num_id) {
         if (counter <= capacidad) {
-            var btn_actual = document.getElementById(num_id);
+            let btn_actual = document.getElementById(num_id);
             if (jugador.implementos.includes(implemento)) { //si ya fue elegido
-                var index_impl = jugador.implementos.indexOf(implemento);
+                let index_impl = jugador.implementos.indexOf(implemento);
                 jugador.implementos.splice(index_impl, 1);
                 btn_actual.style.backgroundColor = "#F5F4F5";
                 counter -= 1;
