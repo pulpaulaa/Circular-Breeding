@@ -229,7 +229,7 @@ rgba(255, 205, 56, 0.5);
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 #h1-p3 {
